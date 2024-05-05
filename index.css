@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Background img css */
+.background-img{
+    background: url(image/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbr css */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    font-weight: bold;
+}
+
+.navbar-title span {
+    color: rgb(54, 54, 51);
+}
+
+.navbar-menus{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding-left: 2em;
+}
+
+/* Section one content css */
+.section-one-content{
+    margin-top: 40vh;
+    margin-left: 10vh;
+}
+
+.section-one-content > h1 {
+    font-size: 3em;
+    color: rgb(28, 129, 37);
+}
+
+.section-one-content > p {
+    font-size: 1.2em;
+    color: rgb(4, 103, 252);
+    font-weight: bold;
+    text-shadow: 10em;
+}
+
+.btn-product {
+    padding: 0.8em 1em;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(4, 103, 252);
+}
+
+/* Product card css */
+.product-card {
+    width: 18em;
+    /* background-color: lightgray; */
+    border-radius: 8px;
+    padding: 2em 1em;
+}
+
+.product-content-container > h1 {
+    font-size: 1.3em;
+
+}
+
+.product-content-container > p {
+    font-size: 1em;
+}
+
+.product-img {
+    width: 60%;
+}
+
+.product-image-container{
+    text-align: center;
+}
